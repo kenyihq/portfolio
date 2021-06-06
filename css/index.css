@@ -6,6 +6,8 @@
 @import "./menu.css";
 @import "./social.css";
 @import "./footer.css";
+@import "./form.css";
+@import "./title.css";
 
 :root {
     --fontBase : 'Poppins', sans-serif;
