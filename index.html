@@ -11,15 +11,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <p>Probando color te texto</p>
-    <header class="header">
-        <img src="./img/logo.png" alt="Logo" width="155">
-        <button class="button">Curriculum</button>
-        <button class="button is-secondary">Curriculum</button>
-    </header>
-    <a class="button-icon" href="tel:+51910594824"><img src="./icons/icon-phone.svg"></a>
-    <a class="button-icon" href="mail:kenyihq@gmail.com"><img src="./icons/icon-important_mail.svg"></a>
-    <a class="button-icon" href="http://instagra.com/kenyihq"><img src="./icons/icon-instagram.svg"></a>
-    <a class="button-icon" href="http://twitter.com/kenyihq"><img src="./icons/icon-twitter_squared.svg"></a>
+    <div class="wrapper">
+        <header class="header">
+            <img src="./img/logo.png" alt="Logo" width="155">
+            <nav class="menu">
+                <ul>
+                    <li><a class="is-active" href="#main">Hola</a></li>
+                    <li><a href="#project">Proyectos</a></li>
+                    <li><a href="#contact">Hablemos</a></li>
+                </ul>
+            </nav>
+            <button class="button">Curriculum</button>
+        </header>
+    
+        <section class="hero" id="main">
+            <div class="hero-image">
+                <img src="./img/kenyihq2x.png" alt="" width="338" height="330">
+            </div>
+            <div class="hero-description">
+                <h1>
+                    <span>¡Hola a todos!</span>
+                    <span>Soy Kenyi</span>
+                </h1>
+                <p>
+                    A lo largo de este tiempo he ido aprendiendo y sigo aprendiendo, a continuación les persento mis proyectos personales. 
+                </p>
+                <div class="hero-social">
+                    <a class="button-icon" href="tel:+51910594824"><img src="./icons/icon-phone.svg" alt="phone-icon"></a>
+                    <a class="button-icon" href="mailto:kenyihq@gmail.com"><img src="./icons/icon-important_mail.svg" alt="mail-icon"></a>
+                    <a class="button-icon" href="http://instagram.com/kenyihq"><img src="./icons/icon-instagram.svg" alt="instagram-icon"></a>
+                    <a class="button-icon" href="http://twitter.com/kenyihq"><img src="./icons/icon-twitter_squared.svg" alt="twitter-icon"></a>
+                </div>
+                <a href="" class="button">Descargar curriculum</a>
+            </div>
+        </section>
+    </div>
+    
 </body>
 </html>              
