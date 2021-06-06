@@ -45,7 +45,7 @@
                 <a href="" class="button">Descargar curriculum</a>
             </div>
         </section>
-        <form action="" method="POST" class="form" id="contact">
+        <form action="https://formspree.io/f/xvodanve" method="POST" class="form" id="contact">
             <h2 class="title">HABLEMOS</h2>
             <p>
                 Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.
@@ -84,6 +84,26 @@
             </div>
         </footer>    
     </div>
-    
+    <script>
+        const $form = document.querySelector('#contact')
+
+        $form.addEventListener('submit', handleSubmit)
+
+        async function handleSubmit(event) {
+            event.preventDefault()
+            const form = new FormData(this)
+            const response = await fetch(this.action, {
+                method: this.method,
+                body: form,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+            if (response.ok) {
+                this.reset()
+                alert('Gracias por contactarme, te escribiré pronto :)')
+            }
+        }
+    </script>    
 </body>
 </html>              
