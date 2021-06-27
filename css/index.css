@@ -33,6 +33,5 @@ body {
     min-block-size: 100vh;
     font: var(--body1);
     color: var(--purple);
-    margin: 0;
+    margin: 0;    
 }
-

@@ -8,6 +8,10 @@
     gap: 16px;
 }
 
+.hero-description p {
+    text-align: justify;
+}
+
 .hero-social {
     padding-block-end: 24px;
 }
@@ -24,6 +28,11 @@
 .hero h1 span:first-child {
     font: var(--headline5);
     display: block;
+}
+
+.link-blog {
+    text-decoration: none;
+    font: var(--button);
 }
 
 /* para Desktop */

@@ -10,8 +10,3 @@
     text-decoration: none;
     box-shadow: -4px 4px 0 var(--white);
 }
-
-.link-blog {
-    text-decoration: none;
-    font: var(--button);
-}
