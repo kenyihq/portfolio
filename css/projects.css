@@ -1,0 +1,49 @@
+.project-head {
+    text-align: center;
+}
+
+.project-img {
+    text-align: center;
+}
+
+.project-img .img{
+    width: 350px;    
+}
+
+.project-description {
+    text-align: center;
+    margin-inline: 25px;
+}
+
+.project-description p {
+    text-align: justify;
+}
+
+/* Para Descktop */
+@media screen and (min-width: 768px) {
+    .project-head {
+        margin-inline: 150px;
+    }
+    .project {
+        display: flex;
+        align-items: flex-start;
+    }
+    .project-img {
+        order: 2;
+    }
+    .project-description {
+        order: 1;
+    }
+    .project-img .img{
+        width: 450px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .project-head {
+        margin-inline: 250px;
+    }
+    .project-img .img{
+        width: 600px;
+    }
+}

@@ -8,6 +8,7 @@
 @import "./footer.css";
 @import "./form.css";
 @import "./title.css";
+@import "./projects.css";
 
 :root {
     --fontBase : 'Poppins', sans-serif;
