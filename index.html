@@ -12,18 +12,19 @@
     <link  rel="icon"   href="./img/icon-logo.png" type="image/png" />  
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wrapper" id="index">
         <header class="header">
-            <img src="./img/logo.png" alt="Logo" width="155">
+            <a href="#index">
+                <img src="./img/logo.png" alt="Logo" width="155">
+            </a>
             <nav class="menu" aria-label="main-navigation">
                 <ul>
-                    <li><a class="is-active" href="#main">Hola</a></li>
                     <li><a href="#projects">Proyectos</a></li>
                     <li><a href="#contact">Hablemos</a></li>
                     <li><a href="https://cuadernodelprogramador.blogspot.com/" target="_blank">Blog</a></li>
                 </ul>
             </nav>
-            <button class="button"><a href="https://linkedin.com/in/kenyihq" target="_blank">Curriculum</a></button>
+            <button class="button"><a href="#certificates">Certificados</a></button>
         </header>
     
         <section aria-label="main" class="hero" id="main">
@@ -55,27 +56,63 @@
         
         <section id="projects">
             <div class="project-head">
-                <p>A lo largo de este tiempo he ido aprendiendo cada vez más de este mundo tan maravilloso que es la indsutria tech, a continuación les persento mis proyectos personales. </p>
+                <p>A lo largo de este tiempo he ido aprendiendo cada vez más de este mundo tan maravilloso que es la indsutria tech, a continuación les persento mis proyectos personales</p>
                 <h1>Aquí hay algunos que me gustaría compartir.</h1>
                 <img src="./img/arrow-down.png" alt="⬇">
             </div>
             <div class="project">
                 <div class="project-img">
-                    <img src="./img/portfolio.png" alt="Portafolio persoanal" class="img">
+                    <a href="#main"">
+                        <img src="./img/portfolio.png" alt="Portafolio persoanal" class="img">
+                    </a>
                 </div>
                 <div class="project-description">
                     <a href="#main" class="title">kenyihq.com</a>
-                    <p>Portafolio personal que fue desarrollado solo con HTML y CCS, un proyecto simple pero funcional, sirvió bastabte para practicar mis hablidades en desarrollo web.</p>
-                    <a href="https://github.com/kenyihq/portfolio/blob/main/index.html" target="_blank" class="button">VER CÓDIGO</a>
-                    <a href="#main" class="button">VER PROYECTO</a>
+                    <p>Portafolio personal que fue desarrollado con HTML, CSS y un guiño de Javascript, un proyecto simple pero funcional, sirvió bastabte para practicar mis hablidades en desarrollo web</p>
+                    <a href="https://github.com/kenyihq/portfolio/blob/main/index.html" target="_blank" class="button2">Ver código</a>
+                    <a href="#main" class="button">Ver proyecto</a>
                 </div>
             </div>
+            <div class="project">
+                <div class="project-img">
+                    <a href="https://replit.com/@kenyihq/pokemongame#main.py" target="_blank">
+                        <img src="./img/pokemon.png" alt="Pokemon" class="img">
+                    </a>
+                </div>
+                <div class="project-description">
+                    <a href="https://replit.com/@kenyihq/pokemongame#main.py" target="_blank" class="title">Lógica del juego Pokemon</a>
+                    <p>Un pequeño proyecto que fue desarrollado en Python a partir del diagrama de flujos. Se desarrolló la lógica del juego</p>
+                    <a href="https://github.com/kenyihq/pokemon" target="_blank" class="button2">Ver código</a>
+                    <a href="https://cuadernodelprogramador.blogspot.com/2021/07/pokemon.html" target="_blank" class="button">Ver proyecto</a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-img">
+                    <a href="https://replit.com/@kenyihq/todo#main.py" target="_blank">
+                        <img src="./img/to-do.png" alt="Pokemon" class="img">
+                    </a>
+                </div>
+                <div class="project-description">
+                    <a href="https://replit.com/@kenyihq/todo#main.py" target="_blank" class="title">To-Do list en Python</a>
+                    <p>Un sencillo gestor de tareas (to-do), escrita en Python que corre en la terminal de línea de comandos</p>
+                    <a href="https://github.com/kenyihq/python-practice/blob/master/todo.py" target="_blank" class="button2">Ver código</a>
+                    <a href="https://cuadernodelprogramador.blogspot.com/2021/07/to-do-list-en-python.html" target="_blank" class="button">Ver proyecto</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificates">
+            <div class="certificates-head">
+                <h1>Algunas certificaciones que me gustaría compartir</h1>
+                <img src="./img/arrow-down-white.png" alt="⬇">
+            </div>
+
         </section>
 
         <form action="https://formspree.io/f/xvodanve" method="POST" class="form" id="contact">
             <h2 class="title">HABLEMOS</h2>
             <p>
-                Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.
+                Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo
             </p>
             <label for="form-name">
                 Nombre completo

@@ -4,21 +4,29 @@
 
 .project-img {
     text-align: center;
+    /* padding-left: 50px; */
 }
 
 .project-img .img{
-    width: 350px;    
+    width: 350px;
 }
 
 .project-description {
     text-align: center;
-    margin-inline: 25px;
+    /* margin-inline: 15px; */
 }
 
 .project-description p {
     text-align: justify;
 }
 
+.project {
+    padding-bottom: 20px;
+}
+/* .img {
+    width: 80%;
+    padding-top: 20px;
+} */
 /* Para Descktop */
 @media screen and (min-width: 768px) {
     .project-head {
@@ -33,17 +41,26 @@
     }
     .project-description {
         order: 1;
+        padding-right: 15px;
     }
     .project-img .img{
-        width: 450px;
+        width: 400px;
     }
 }
 
 @media screen and (min-width: 1024px) {
+    .project {
+        margin-inline: 50px;
+    }
     .project-head {
         margin-inline: 250px;
     }
+    .project-img {
+        margin-left: 50px;
+    }
     .project-img .img{
-        width: 600px;
+        width: 500px;
+        /* margin-left: 50px; */
+        /* margin-right: 50px; */
     }
 }
