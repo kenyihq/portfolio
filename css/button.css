@@ -50,5 +50,17 @@
 }
 
 .button-linkedin {
-    
+    background: var(--linkedin);
+    color: var(--white);
+    font: var(--button);
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    padding-block-start: 10px;
+    padding-block-end: 10px;
+    margin: 0 120px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    border: 1px solid var(--white);
+    text-decoration: none;
+    text-align: center;
 }
