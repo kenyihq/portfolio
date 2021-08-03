@@ -10,6 +10,7 @@
 @import "./title.css";
 @import "./projects.css";
 @import "./certificates.css";
+@import "./expirience.css";
 
 :root {
     --fontBase : 'Poppins', sans-serif;
@@ -26,6 +27,7 @@
     --purple : #310A90;
     --green : #42E2B8;
     --white : white;
+    --linkedin : #0077B5;
 
     
 }
