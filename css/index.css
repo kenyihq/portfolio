@@ -11,6 +11,7 @@
 @import "./projects.css";
 @import "./certificates.css";
 @import "./expirience.css";
+@import "./nav.css";
 
 :root {
     --fontBase : 'Poppins', sans-serif;

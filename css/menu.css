@@ -2,11 +2,6 @@
     display: none;
 }
 
-.menu ul {
-    display: flex;
-    list-style: none;
-    gap: 40px;
-}
 
 .menu ul a {
     text-decoration: none;
@@ -15,12 +10,18 @@
     text-transform: uppercase;
 }
 
-.menu ul a.is-active {
+.menu ul a:hover {
     color: var(--purple);
 }
 
 @media screen and (min-width: 768px){
     .menu {
         display: block;
+    }
+
+    .menu ul {
+        display: flex;
+        list-style: none;
+        gap: 40px;
     }
 }
